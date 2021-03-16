@@ -117,3 +117,48 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* Media queries */
+@media (max-width: 590px) {
+  html {
+    font-size: .5rem;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  h1, .between, .again {
+    position: initial;
+    transform: unset;
+  }
+  .again {
+    align-self: flex-start;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .right, .left {
+    width: unset;
+  }
+  .right .message {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 320px) and (orientation:landscape) {
+  header {
+    height: 30rem;
+  }
+  main {
+    height: 50rem;
+  }
+} 
