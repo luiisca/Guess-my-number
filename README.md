@@ -7,3 +7,4 @@ If you want to get rich with cryptocurrencies visit [Guess-my-number](https://lu
 To my dog how still here wih me ever, even in my moments of absolutly frustration.
 ## 👀Preview
 ![Screenshot](Guess-my-number.png) 
+![Screenshot](Guess-my-number-mobile.png) 
